@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		47A5FF020E96AABD0B10C19F /* Pods_FTPopTransitionModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDEE77BBBDA475C2A12DC05 /* Pods_FTPopTransitionModule_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* ShowAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ShowAboutViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9B7E701527D3231600478BDC /* FTAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7E701427D3231600478BDC /* FTAlertViewController.swift */; };
+		9B7E701727D3233800478BDC /* FTPresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7E701627D3233800478BDC /* FTPresentViewController.swift */; };
+		9B7E701927D324A700478BDC /* PresentAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7E701827D324A700478BDC /* PresentAboutViewController.swift */; };
 		FBD3117F9FC55600E2B087C8 /* Pods_FTPopTransitionModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0C2F9B11D3EE3B17D35698 /* Pods_FTPopTransitionModule_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +37,7 @@
 		607FACD01AFB9204008FA782 /* FTPopTransitionModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPopTransitionModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ShowAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAboutViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,10 +46,13 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		81A64F32CCE927650BEA62A1 /* Pods-FTPopTransitionModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTPopTransitionModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-FTPopTransitionModule_Tests/Pods-FTPopTransitionModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		872EA5918F43F055124F8503 /* Pods-FTPopTransitionModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTPopTransitionModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FTPopTransitionModule_Tests/Pods-FTPopTransitionModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7E701427D3231600478BDC /* FTAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTAlertViewController.swift; sourceTree = "<group>"; };
+		9B7E701627D3233800478BDC /* FTPresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPresentViewController.swift; sourceTree = "<group>"; };
+		9B7E701827D324A700478BDC /* PresentAboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentAboutViewController.swift; sourceTree = "<group>"; };
 		9DDEE77BBBDA475C2A12DC05 /* Pods_FTPopTransitionModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTPopTransitionModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF0AEA74CE4DF43B00AFBBD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C14679E82D617E705A60CD34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D763235EBDFFDCA0582C84A3 /* FTPopTransitionModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FTPopTransitionModule.podspec; path = ../FTPopTransitionModule.podspec; sourceTree = "<group>"; };
+		AF0AEA74CE4DF43B00AFBBD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C14679E82D617E705A60CD34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D763235EBDFFDCA0582C84A3 /* FTPopTransitionModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FTPopTransitionModule.podspec; path = ../FTPopTransitionModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +92,6 @@
 				872EA5918F43F055124F8503 /* Pods-FTPopTransitionModule_Tests.debug.xcconfig */,
 				81A64F32CCE927650BEA62A1 /* Pods-FTPopTransitionModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -115,11 +120,14 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD71AFB9204008FA782 /* ShowAboutViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				9B7E701427D3231600478BDC /* FTAlertViewController.swift */,
+				9B7E701627D3233800478BDC /* FTPresentViewController.swift */,
+				9B7E701827D324A700478BDC /* PresentAboutViewController.swift */,
 			);
 			name = "Example for FTPopTransitionModule";
 			path = FTPopTransitionModule;
@@ -213,10 +221,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W4RKLQZZCQ;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W4RKLQZZCQ;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +237,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -331,7 +342,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9B7E701527D3231600478BDC /* FTAlertViewController.swift in Sources */,
+				607FACD81AFB9204008FA782 /* ShowAboutViewController.swift in Sources */,
+				9B7E701927D324A700478BDC /* PresentAboutViewController.swift in Sources */,
+				9B7E701727D3233800478BDC /* FTPresentViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +492,7 @@
 			baseConfigurationReference = 53BF287734DB32FB34831141 /* Pods-FTPopTransitionModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4RKLQZZCQ;
 				INFOPLIST_FILE = FTPopTransitionModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +508,7 @@
 			baseConfigurationReference = 4C7CF3D0F5136B95017B3C32 /* Pods-FTPopTransitionModule_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4RKLQZZCQ;
 				INFOPLIST_FILE = FTPopTransitionModule/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +523,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 872EA5918F43F055124F8503 /* Pods-FTPopTransitionModule_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = W4RKLQZZCQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81A64F32CCE927650BEA62A1 /* Pods-FTPopTransitionModule_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = W4RKLQZZCQ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
